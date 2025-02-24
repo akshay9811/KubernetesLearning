@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: ReplicaSet
 metadata:
-  name: nginx-replica
+  name: nginx-replicas
   namespace: nginix
   labels:
     app: nginx
